@@ -1,0 +1,7 @@
+mkdir -p /tmp/pynguin-results
+
+pynguin \
+    --project-path source/_static \
+    --output-path /tmp/pynguin-results \
+    --module-name example \
+    -v
